@@ -1,0 +1,362 @@
+body{
+    box-sizing: border-box;
+    background-color: #0f0f0f;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.orange-highlight{
+    color:rgb(226, 159, 15);
+}
+
+/*Navigation Bar*/
+.navbar{
+    z-index: 1;
+}
+.nav-item{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    font-size: 15px; 
+}
+.nav-item .search-btn{
+    height: 31px;
+    width: 31px;
+}
+
+.nav-item .logo{
+    color: rgb(226, 159, 15);
+    font-size: 1.6rem;
+}
+
+.active{
+    background-color: rgb(197, 1, 1);
+    border-radius: 5px;
+}
+
+/*Home Page - Body*/
+
+.body-home{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/home-office.jpg);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+
+.body-home h1{
+    color: white;
+    font-size: 5rem;
+    margin-top: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.body-home h2{
+    color: white;
+    text-align: center;
+    color: rgb(226, 159, 15);
+    letter-spacing: 8px;
+}
+
+.home-learn{
+    margin-top: 40px;
+}
+
+.home-column{
+    height: auto;
+    color: white;
+    margin: 0px auto 50px auto;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 3px solid white;
+}
+
+.home-column h3{
+    font-size: 1.3rem;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.home-column a{
+    color: rgb(226, 159, 15);
+    text-decoration: none;
+}
+
+.curriculum{
+    width: 80%;
+    margin: 60px auto 100px auto;
+}
+
+.curriculum h1{
+    text-align: center;
+    margin: 75px auto 20px auto;
+    letter-spacing: 4px;
+}
+
+.curriculum td{
+    padding: 20px;
+}
+
+.curriculum .first-col{
+    text-align: center;
+}
+
+/** Footer Section **/
+
+footer{
+    background-color: rgb(228, 144, 18);
+    position: relative;
+    z-index: 1;
+}
+
+.company{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.company a{
+    text-decoration: none;
+    color: white;
+}
+
+.company a:hover{
+    color: rgb(41, 37, 37);
+}
+
+footer hr{
+    width: 500px;
+    margin: 10px auto 0px auto;
+}
+
+footer .soc-med-logo{
+    text-align: center;
+}
+
+footer .soc-med-logo i{
+    padding: 20px;
+    color: rgb(41, 37, 37);
+    transition: 0.8s;
+}
+
+footer .soc-med-logo a{
+    text-decoration: none;
+}
+
+footer .soc-med-logo i:hover{
+    transform: scale(1.5);
+    color: white;
+}
+
+/** About Us - Profile Content**/
+
+.profile-container{
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+
+.profile-container h1{
+    padding-top: 20px;
+}
+
+.profile{
+    padding: 10px;
+}
+
+.italicized{
+    font-style: italic;
+}
+
+.faculty-photo{
+    width: 100%;
+    margin: 25px auto 5px auto;
+}
+
+.left-paragraph{
+    text-align: left;
+    margin-bottom: 50px;
+}
+.passion img{
+    height: 210px;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.contact-details{
+    text-align: left;
+}
+
+.contact-details h4{
+    margin: 10px 0;
+}
+
+.contact-details p{
+    margin: 0;
+}
+
+/** Contact Us Content**/
+
+form{
+    margin: 0px auto;
+    text-align: center;
+    width: 400px;
+}
+
+.text{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-us label{
+    display: block;
+}
+
+.enteremail{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.contact-submit {
+    background-color:rgb(230, 81, 11);
+    margin: 15px 0 30px 0;
+    height: 40px;
+    width: 100%;
+    border: 1px white solid;
+    border-radius: 25px;
+}
+
+/** Side Bar**/
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(230, 81, 11); 
+    overflow-x: hidden;
+    padding-top: 62px;
+}
+
+.sidenav a {
+    display: block;
+    padding: 10px 8px 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.sidenav a:hover {
+    color: rgb(230, 81, 11);
+    background-color: #0f0f0f;
+}
+
+.sidenav .sidenav-active{
+    color: rgb(230, 81, 11);
+    background-color: #0f0f0f;
+}
+
+/*Learn HTML Content */
+
+.learn-html-content{
+    margin: 20px 0px 100px 200px;
+    width: 70%;
+    text-align: justify;
+    padding: 25px;
+}
+
+.text-editors{
+    width: 100px;
+    height: 100px;
+}
+
+.code-section{
+    line-height: 0;
+    border: 1px solid rgb(226, 159, 15);
+    padding: 20px 30px;
+}
+
+.code-result-section{
+    min-height: 400px;
+}
+
+.learn-html-content p{
+    padding-top: 25px;
+}
+
+.headings{
+    margin-top: 20px;
+    border: 2px dashed rgb(226, 159, 15);
+    padding: 25px;
+    max-width: 450px;
+}
+
+.table-textformat{
+    width: 400px;
+}
+
+.sample-images{
+    max-width: 750px;
+}
+
+td{
+    padding: 5px 20px;
+    border: 1px solid white;
+}
+
+.prev-next-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.prev-next-btn a{
+    color: white;
+    background-color: rgb(230, 81, 11);
+    width: 130px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.prev-next-btn a:hover{
+    background-color: white;
+    color: rgb(230, 81, 11);
+}
+
+.prev-learn-html {
+    visibility: hidden;
+}
+
+.next-forms-html{
+    visibility: hidden;
+}
+
+/* Responsiveness*/
+
+@media screen and (max-width: 768px){
+    .sample-images{
+        width: 100%;
+    }
+
+    .sidenav{
+        height: 350px;
+        width: 100%;
+        position: absolute;
+        top: 205px;
+        background-color: rgb(230, 81, 11); 
+        overflow-x: hidden;
+        padding-top: 10px;
+    }
+
+    .learn-html-content{
+        margin: 390px auto 50px auto;
+        width: 95%;
+        text-align: justify;
+    }
+}

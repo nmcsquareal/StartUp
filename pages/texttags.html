@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learn HTML - Texts</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="C:\Users\nmcsq\Desktop\Portfolio Projects\StartUp\index.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/b068262b7e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-md bg-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link logo p-1" href="C:\Users\nmcsq\Desktop\Portfolio Projects\StartUp\index.html">StartUp</a>
+                    </li>
+                    <li class="nav-item nav-right">
+                        <a class="nav-link text-white p-1" href="C:\Users\nmcsq\Desktop\Portfolio Projects\StartUp\index.html">Home</a>
+                    </li>
+                    <li class="nav-item nav-right">
+                        <a class="nav-link text-white p-1" href="C:\Users\nmcsq\Desktop\Portfolio Projects\StartUp\About Us.html">About Us</a>
+                    </li>
+                    <li class="nav-item nav-right">
+                        <a class="nav-link text-white p-1 active" href="LearnHTML.html">Learn HTML</a>
+                    </li>
+                    <li class="nav-item nav-right">
+                        <a class="nav-link text-white p-1" href="C:\Users\nmcsq\Desktop\Portfolio Projects\StartUp\ContactUs.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item nav-right">
+                        <input type="text" placeholder="Search...">
+                        <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Side Bar -->
+
+        <div class="sidenav">
+            <a href="LearnHTML.html">Getting Started</a>
+            <a href="texttags.html" class="sidenav-active">Texts</a>
+            <a href="lists.html">Lists</a>
+            <a href="images.html">Images</a>
+            <a href="links.html">Links</a>
+            <a href="table.html">Table</a>
+            <a href="forms.html">Forms</a>
+        </div>
+        
+        <!--Content-->
+        <div class="learn-html-content">
+            <h1 class="orange-highlight display-1">Text tags</h1>
+            <p>One of the things that you will mostly insert in your websites are texts. In this section,
+                you will learn how to add different type of text formatting to achieve your desirable result.
+                We will start with headings, paragraph and some text-formatting elements such as bold, italicized
+                superscript and subscript.
+            </p>
+            <br/>
+            <h3 class="display-6 mt-3">Headings</h3>
+            <p> HTML headings are titles or subtitles that you want to display on a webpage.
+                Presented below are different type of headings that you may use in your website.</p>
+            <div class="code-section">
+                <h1>&lt;h1&gt;Heading 1&lt;h1&gt;</h1>
+                <h2>&lt;h2&gt;Heading 2&lt;h2&gt;</h2>
+                <h3>&lt;h3&gt;Heading 3&lt;h3&gt;</h3>
+                <h4>&lt;h4&gt;Heading 4&lt;h4&gt;</h4>
+                <h5>&lt;h5&gt;Heading 5&lt;h5&gt;</h5>
+                <h6>&lt;h6&gt;Heading 6&lt;h6&gt;</h6>
+            </div>
+            <p>You can use headings from &lt;h1&gt; (largest) to &lt;h6&gt; (smallest). By enclosing a 
+                text to a heading tag, you make the content a title or a subtitle.
+            </p>
+            <h3 class="display-6 mt-5">Paragraph</h3>
+            <p>The <span class="orange-highlight">paragraph </span> &lt;p&gt; tag declares a paragraph. Browsers automatically add a single blank line before and 
+                after each paragraph element. </p>
+            <p>Below is an example of an html document with a heading and paragraph tag on its body.</p>
+                
+            <div class="code-section">
+                <p>&lt;!DOCTYPE html&gt;</p>
+                <p>&lt;html&gt;</p>
+                    <div class="ms-5">
+                        <p>&lt;head&gt;</p>
+                        <br/>
+                        <p>&lt;/head&gt;</p>
+                        <p>&lt;body&gt;</p>
+                        <div class="ms-5">
+                            <p>&lt;h1&gt; This is a large header &lt;/h1&gt;</p>
+                            <p>&lt;p&gt; This is a paragraph &lt;/p&gt;</p>
+                            <p>&lt;p&gt; This is another paragraph &lt;/p&gt;</p>
+                            <p>&lt;p&gt; Notice that another paragraph will automatically go to the next line &lt;/p&gt;</p>
+                            <p>&lt;h2&gt; This is a header but smaller than h1 &lt;/h2&gt;</p>
+                            <p>&lt;p&gt; This is the last paragraph &lt;/p&gt;</p>
+                        </div>
+                        <p>&lt;/body&gt;</p>
+                    </div>
+                <p>&lt;/html&gt;</p>
+            </div>
+            <div class="code-result-section bg-light text-dark mt-3 p-3">
+                <h1>This is a large header</h1>
+                <p> This is a paragraph </p>
+                <p> This is another paragraph </p>
+                <p> Notice that another paragraph will automatically go to the next line </p>
+                <p> This is a header but smaller than h1 </p>
+                <p> This is the last paragraph </p>
+            </div>
+            
+            <h3 class="display-6 mt-5">Text Formatting Elements</h3>
+            <p>HTML contains several elements for defining text with a special meaning. Below
+                is a table of elements that were designed to display special types of texts. You may try
+                each of them and see their effects on your texts.
+            </p>
+            <p>Some of the commonly used HTML Formatting Elements:</p>
+            <table class="mx-auto table-textformat">
+                <tr><td>&lt;b&gt;</td><td>Bold text</td></tr>
+                <tr><td>&lt;strong&gt;</td><td>Important text</td></tr>
+                <tr><td>&lt;i&gt;</td><td>Italic text</td></tr>
+                <tr><td>&lt;em&gt;</td><td>Emphasized text</td></tr>
+                <tr><td>&lt;mark&gt;</td><td>Marked text</td></tr>
+                <tr><td>&lt;small&gt;</td><td>Smaller text</td></tr>
+                <tr><td>&lt;del&gt;</td><td>Deleted text</td></tr>
+                <tr><td>&lt;ins&gt;</td><td>Inserted text</td></tr>
+                <tr><td>&lt;sub&gt;</td><td>Subscript text</td></tr>
+                <tr><td>&lt;sup&gt;</td><td>Superscript text</td></tr>
+            </table>
+            <p>Below are the effects of these different text formatting tags</p> 
+            <div class="d-flex justify-content-center">
+                <img src="C:\Users\nmcsq\Desktop\Portfolio Projects\StartUp\img\html-text-effects.png" class="sample-images">
+            </div>
+            <div class="prev-next-btn">
+                <div><a href="LearnHTML.html" class="previous">&laquo;&nbsp;Previous</a></div>
+                <div><a href="#" class="top">Back to Top</a></div>
+                <div><a href="lists.html" class="next">Next &nbsp;&raquo;</a></div>
+            </div>
+        </div>
+        <!--Footer Section
+        <footer>
+            <p class="pt-1">Follow Us On</p>
+            <div class="soc-med-logo">
+                <a href="https://www.facebook.com/neal.ackerman12" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/neal_ackerman_" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/itsmenealdyxther/?hl=en" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCDhM2k2Cua-JdobAh5moMFg" target="_blank">
+                    <i class="fa-brands fa-youtube"></i></i>
+                </a>
+                </div>
+        </footer> -->
+    </body>
+</html>
